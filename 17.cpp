@@ -15,7 +15,7 @@ int main()
    {
        for(j=1;j<n;j++)
        {
-           if((a[i]!=k)&&(a[i]+a[j]==k))
+           if((a[i]!=k)&&(a[i]!=a[j])&&(a[i]+a[j]==k))
            {
                cout<<"yes";
                count=1;
